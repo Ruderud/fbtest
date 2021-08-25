@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FireBase Test</title>
+  </head>
+  <body>
+    <h1>파이어 베이스 테스트</h1>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyCQ_afwDtXPlK1-CicXaeK51z8uTGIRtVo",
+        authDomain: "fbtest-20aff.firebaseapp.com",
+        projectId: "fbtest-20aff",
+        storageBucket: "fbtest-20aff.appspot.com",
+        messagingSenderId: "376157546040",
+        appId: "1:376157546040:web:580788e4ca87298c9768cd",
+        measurementId: "G-FV1WRDMVBM",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+  </body>
+</html>
